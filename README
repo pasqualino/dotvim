@@ -19,3 +19,10 @@ To install a new plugin:
     git add .
     git commit -m "Install Fugitive.vim bundle as a submodule."
     git push
+
+Upgrading all bundled plugins:
+    git submodule foreach git pull origin master
+
+More info:
+    http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
